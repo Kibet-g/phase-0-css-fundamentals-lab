@@ -1,8 +1,102 @@
-body {
-  width: 100%;
-  height: 100%;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-h1 {
-  color: red;
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
 }
+
+/* Header style */
+header {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+header h1 {
+  color: black;
+  font-size: 28px;
+}
+
+/* Navigation bar */
+nav {
+  margin-top: 15px;
+}
+
+nav a {
+  color: blue;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Section - Featured Property */
+#featured-property {
+  text-align: center;
+  margin: 30px;
+}
+
+#featured-property figure img {
+  width: 60%;
+  border: 5px solid gray;
+  padding: 5px;
+}
+
+#featured-property figcaption {
+  margin-top: 10px;
+  font-size: 0.9em;
+  color: gray;
+}
+
+/* Paragraph Styling */
+#featured-property p {
+  width: 60%;
+  margin: 20px auto;
+  text-align: justify;
+  font-size: 1em;
+}
+
+/* Footer Section */
+#details {
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+  padding: 20px;
+  color: white;
+}
+
+#details h3 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+
+#details p {
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+#details a {
+  color: white;
+  text-decoration: none;
+}
+
+#details a:hover {
+  text-decoration: underline;
+}
+
+/* Contact and Correspondence */
+#details div {
+  flex: 1;
+  margin: 0 20px;
+}
+
